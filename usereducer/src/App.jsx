@@ -6,12 +6,12 @@ const reducer = (state, action)=>{
 
   if(action.type == "inc")
   {
-    return state.count + 1;
+    return {count: state.count +1};
   }
 
   if(action.type == "dec")
   {
-    return state.count - 1;
+    return {count: state.count - 1};
   }
 
   else{
