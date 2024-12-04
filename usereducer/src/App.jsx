@@ -1,4 +1,5 @@
 import { useState, useReducer } from 'react'
+import FetchData from './FetchData';
 
 
 const reducer = (state, action)=>{
@@ -41,6 +42,7 @@ function App() {
       <h1>{state.count}</h1>
       <button onClick={handleClickInc}>+</button>
       <button onClick={handleClickDec}>-</button>
+      <FetchData />
     </>
   )
 }
