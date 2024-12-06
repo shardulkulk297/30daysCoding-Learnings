@@ -9,10 +9,12 @@ const Navbar = () => {
     <nav>
         <ul className='nav'>
             <li>
-                <Link to="/">HOME</Link>
-                </li>
-            <li><Link to="/About">ABOUT</Link></li>
-            <li><Link to="/">HOME</Link></li>
+                <Link to="/">Logo</Link>
+            </li>
+            <li>
+              <Link to="/About">ABOUT</Link></li>
+            <li><Link to="/Login"><button>Login</button></Link></li>
+
         </ul>
     </nav>
   )
