@@ -17,7 +17,7 @@ const RouterEg = () => {
                 <Route path='/contact' element={<Contact />}></Route>
                 <Route path='/About' element={<About />}></Route>
                 <Route path='/Login' element={<Login />}></Route>
-                
+                <Route path='*' element = {<div>#ERROR 404</div>}></Route>
             </Routes>
         </BrowserRouter>
       
